@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Fragment1"
+    android:background="#FFFF33"
+    android:orientation="horizontal"
+    android:id="@+id/fragmentMain">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtViewFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FRAGMENT 1"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="25dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnNextFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txtViewFragment1"
+            android:layout_alignEnd="@id/txtViewFragment1"
+            android:layout_alignRight="@id/txtViewFragment1"
+            android:layout_alignBottom="@id/txtViewFragment1"
+            android:src="@drawable/ic_arrow_forward_white_24dp"
+            app:backgroundTint="#009688"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+</LinearLayout>

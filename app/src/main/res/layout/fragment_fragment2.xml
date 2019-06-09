@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Fragments.Fragment2"
+    android:orientation="vertical"
+    android:background="#228B22"
+    android:gravity="center|top">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/txtViewFragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRAGMENT 2"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_marginTop="25dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewFragment2"
+            android:layout_marginTop="20dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtEditTextFrag2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escriba aquí"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnNextFrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_forward_white_24dp"
+        android:backgroundTint="#009688"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>
